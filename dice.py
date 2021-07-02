@@ -1,0 +1,11 @@
+name = input("What is your name?")
+print("Hello,", name,"!")
+print('Rolling the dice..')
+import random
+a = random.randint(1,6)
+b = random.randint(1,6)
+print("Die 1:",a)
+print("Die 2:",b)
+print("Total value:",a+b)
+if(a+b>=7):print(name,"won!")
+else :print(name,"lost!")
