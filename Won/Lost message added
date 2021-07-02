@@ -1,2 +1,0 @@
-if(a+b>=7):print("You won!")
-else :print("You lost!")
